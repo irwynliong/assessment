@@ -1,0 +1,138 @@
+.team-section {
+    background-color: #000; /* Black background or any other color you prefer */
+    color: #fff; /* White text color */
+    padding: 2rem; /* Spacing around the content */
+    text-align: center; /* Centered text */
+  }
+  
+  .team-info {
+    margin-bottom: 1rem; /* Space between the text and the team member profiles */
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .team-member,
+    .investment-info,
+    .years-counter {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem; /* Add padding to ensure spacing between items */
+    }
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member p {
+    text-wrap: wrap;
+    text-align: center;
+    width: 80%;
+  }
+  
+  .team-photo {
+    border-radius: 50%; /* Circular photos */
+    margin-bottom: 1rem; /* Space below the photo */
+    border: 3px solid #fff; /* White border around the photo */
+    width: 120px; /* Adjust the size as needed */
+    height: 120px; /* Adjust the size as needed */
+  }
+  
+  .investment-info {
+    margin: 0 4rem; /* Adjust space around the investment info as needed */
+  }
+  
+  .investment-info h2 {
+    font-size: 3rem; /* Larger font size for the investment amount */
+    margin-bottom: 0.5rem; /* Space below the amount */
+  }
+  
+  .statistics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align for flex children */
+    color: #FFF; /* White color for text */
+    background-color: #000; /* Black background */
+    padding: 2rem; /* Adjust padding as needed */
+    margin-top: 2rem; /* Space from the previous content */
+  }
+  
+  .statistics-container > div {
+    margin-bottom: 1rem; /* Space between counters */
+  }
+  
+  .counter {
+    font-size: 6rem; /* Big and bold font size for counter */
+    font-weight: bold; /* Bold font */
+  }
+  
+/* Style for the advisors section */
+.advisors-section {
+    background-color: #000; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    padding: 4rem; /* Adjust padding as needed */
+    text-align: center; /* Center text */
+  }
+  
+  .advisors-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Wrap items for smaller screens */
+  }
+  
+  .advisor {
+    display: flex; /* Align children (photo and text) in a row */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 2rem; /* Add some space below each advisor */
+}
+  
+  .advisor-photo {
+    border-radius: 50%; /* Circular photos */
+    margin-bottom: 1rem; /* Space below the photo */
+    border: 3px solid #fff; /* White border around the photo */
+    width: 120px; /* Adjust the size as needed */
+    height: 120px; /* Adjust the size as needed */
+  }
+  .advisor-info {
+    text-align: left; /* Align the text to the left */
+}
+
+/* Example for an individual advisor, repeated for each one with unique classes or ids if necessary */
+.advisor h3,
+.advisor p,
+.advisor a {
+    margin: 0; /* Remove default margins */
+}
+  
+  h2 {
+    margin-bottom: 2rem; /* Space below the heading */
+  }
+  
+  .advisor h3 {
+    font-size: 1.25rem; /* Adjust font size as needed */
+    margin-bottom: 0.5rem; /* Space below the name */
+  }
+  
+  .advisor a {
+    color: #fff; /* Adjust link color as needed */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .advisor a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Responsive styles, if necessary */
+  @media (max-width: 768px) {
+    .advisor {
+      flex-basis: 100%; /* Full width on small screens */
+    }
+  }
+  
+  

@@ -1,0 +1,74 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; /* or any background color you want */
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px; /* or any max-width you want */
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+    position: relative;
+  }
+  
+.back-arrow {
+  position: static;
+  top: 0 rem;
+  left: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+  
+  .logo2 {
+    display: block; /* or flex, if you need to center it */
+    margin: 0 auto; /* Centers the logo if the display is block */
+    height: 50px; /* Adjust the height as necessary */
+    width: auto; /* Keeps the aspect ratio intact */
+    /* Add any additional styling as needed */
+  }
+  
+  
+  .login-form h2 {
+    text-align: center;
+    /* Add more styles for your heading */
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc; /* Change as needed */
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    background-color: #c59d5f; /* Adjust to match your theme */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .login-links {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .login-links a {
+    display: block;
+    color: #c59d5f;
+    text-decoration: none;
+  }
+  

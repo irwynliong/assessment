@@ -1,0 +1,72 @@
+.companies-box {
+    background-color: black;
+    padding-bottom: 1rem; /* Space at the bottom of the box */
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .companies-header {
+    text-align: center;
+    color: white; /* White text color */
+    font-size: 1.25rem; /* Example font size, adjust as needed */
+    margin-bottom: 1rem; /* Space between header and logos */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .companies-header h1 {
+    font-family: 'Amiri', sans-serif, system-ui;
+    font-size: 1.5rem; /* Larger font size for the header */
+    font-weight: 500; /* Adjust font weight as needed */
+  }
+  
+  .logos-ticker {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .logos {
+    display: flex;
+    animation: scroll-logos 50s linear infinite; /* Animation for the first row */
+  }
+  
+  .logos-reverse {
+    display: flex;
+    animation: scroll-logos-reverse 40s linear infinite; /* Animation for the second row */
+  }
+  
+  .logos img, .logos-reverse img {
+    vertical-align: middle;
+    max-height: 60px; /* Adjust based on the size of your logos */
+    margin: 0 1rem; /* Space between logos */
+  }
+  
+  /* Keyframes for the scrolling animation right to left */
+  @keyframes scroll-logos {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Keyframes for the scrolling animation left to right */
+  @keyframes scroll-logos-reverse {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  /* Pause the animation on hover */
+  .logos:hover, .logos-reverse:hover {
+    animation-play-state: paused;
+  }
+  

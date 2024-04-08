@@ -1,3 +1,9 @@
+
+/* Apply box-sizing border-box globally */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }

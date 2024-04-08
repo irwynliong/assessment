@@ -1,0 +1,5 @@
+.line-breaker {
+    text-align: center; /* Centers the SVG image if it has a defined width */
+    padding: 20px 0; /* Adds some padding above and below the SVG */
+  }
+  

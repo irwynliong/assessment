@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100vw;
+    align-items: center;
+    padding: 1.25rem 1.25rem; /* This is 20px for top & bottom, left & right */
+    margin-right: auto;
+    margin-left: auto;
+    color: #F0F0F0; /* Replace with your defined color for 'text-new-off-white-100' */
+    background-color: #000;
+    font-family: sans-serif;
+    position: sticky;
+}
+
+  @media (min-width: 1024px) { /* Assuming 'lg:' breakpoint is at 1024px */
+    .header {
+      padding: 2.5rem 2.5rem; /* This is 40px for top & bottom, left & right at larger screens */
+    }
+  }
+  
+  .logo1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;        /* This will set the text color to white */
+    text-decoration: none; /* This will remove the underline from the link */
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .inquire-button {
+    background-color: #c59d5f; /* Adjust the color to match the button color in the image */
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .inquire-button:hover {
+    background-color: #b88a4f; /* Slightly darker tone for hover effect */
+  }
+  
+  .login-link {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Responsive styling, if needed */
+  @media (max-width: 768px) {
+    .navigation {
+      display: none; /* Hide navigation on small screens */
+    }
+  }
+  

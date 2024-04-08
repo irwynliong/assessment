@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --tw-bg-opacity: 1; /* Default background opacity */
+  --black-primary: rgba(18, 18, 18, var(--tw-bg-opacity)); /* Replace with the actual rgba color code */
+}
+
+.logo { /* Adjust the class name to match your HTML */
+    color: white;        /* This will set the text color to white */
+    text-decoration: none; /* This will remove the underline from the link */
+  }
